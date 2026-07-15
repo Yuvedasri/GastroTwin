@@ -189,7 +189,8 @@ for patient_id in visit_df['Patient_ID'].unique():
             risk_explanation_parts.append("No significant patient risk factors")
         
         # Add disease risk
-        current_disease = visit['Disease_Name']
+        # Use GroundTruth_Disease if available (v2), else Disease_Name (v1)
+        current_disease = visit.get('GroundTruth_Disease', visit.get('Disease_Name', 'Unknown'))
         disease_risk = DISEASE_RISK_WEIGHTS.get(current_disease, 0)
         total_risk_score += disease_risk
         

@@ -1,51 +1,51 @@
-Patient_ID,Current_Visit,Current_Disease,Previous_Disease,Risk_Score,Risk_Category,Disease_Trend,AI_Status,Twin_Status,Last_Updated
-P001,V0004,Polyps,Esophagitis,100,Very High,Progressing,Pending,Updated,2026-07-15
-P002,V0007,Ulcerative-Colitis,Ulcerative-Colitis,75,Very High,Stable,Pending,Updated,2026-07-15
-P003,V0011,Polyps,Esophagitis,60,High,Progressing,Pending,Updated,2026-07-15
-P004,V0014,Ulcerative-Colitis,Ulcerative-Colitis,40,Medium,Stable,Pending,Updated,2026-07-15
-P005,V0017,Esophagitis,Esophagitis,35,Medium,Stable,Pending,Updated,2026-07-15
-P006,V0020,Normal-Cecum,Normal-Cecum,85,Very High,Stable,Pending,Updated,2026-07-15
-P007,V0023,Dyed-Resection-Margins,Dyed-Lifted-Polyps,40,Medium,Recovering,Pending,Updated,2026-07-15
-P008,V0026,Polyps,Esophagitis,65,High,Progressing,Pending,Updated,2026-07-15
-P009,V0029,Polyps,Polyps,55,High,Stable,Pending,Updated,2026-07-15
-P010,V0032,Normal-Z-Line,Normal-Z-Line,50,High,Stable,Pending,Updated,2026-07-15
-P011,V0035,Polyps,Polyps,60,High,Stable,Pending,Updated,2026-07-15
-P012,V0038,Normal-Cecum,Normal-Cecum,30,Medium,Stable,Pending,Updated,2026-07-15
-P013,V0041,Esophagitis,Esophagitis,75,Very High,Stable,Pending,Updated,2026-07-15
-P014,V0044,Dyed-Resection-Margins,Dyed-Lifted-Polyps,45,Medium,Recovering,Pending,Updated,2026-07-15
-P015,V0047,Polyps,Polyps,90,Very High,Stable,Pending,Updated,2026-07-15
-P016,V0050,Normal-Pylorus,Normal-Pylorus,20,Low,Stable,Pending,Updated,2026-07-15
-P017,V0053,Polyps,Polyps,55,High,Stable,Pending,Updated,2026-07-15
-P018,V0057,Dyed-Resection-Margins,Dyed-Lifted-Polyps,70,High,Recovering,Pending,Updated,2026-07-15
-P019,V0060,Normal-Pylorus,Normal-Pylorus,50,High,Stable,Pending,Updated,2026-07-15
-P020,V0063,Dyed-Resection-Margins,Dyed-Lifted-Polyps,60,High,Recovering,Pending,Updated,2026-07-15
-P021,V0066,Normal-Z-Line,Normal-Z-Line,85,Very High,Stable,Pending,Updated,2026-07-15
-P022,V0069,Dyed-Resection-Margins,Dyed-Lifted-Polyps,40,Medium,Recovering,Pending,Updated,2026-07-15
-P023,V0072,Normal-Cecum,Normal-Cecum,10,Low,Stable,Pending,Updated,2026-07-15
-P024,V0076,Polyps,Esophagitis,120,Very High,Progressing,Pending,Updated,2026-07-15
-P025,V0079,Normal-Cecum,Normal-Cecum,45,Medium,Stable,Pending,Updated,2026-07-15
-P026,V0083,Polyps,Esophagitis,80,Very High,Progressing,Pending,Updated,2026-07-15
-P027,V0086,Ulcerative-Colitis,Ulcerative-Colitis,65,High,Stable,Pending,Updated,2026-07-15
-P028,V0089,Esophagitis,Esophagitis,90,Very High,Stable,Pending,Updated,2026-07-15
-P029,V0092,Polyps,Polyps,75,Very High,Stable,Pending,Updated,2026-07-15
-P030,V0095,Normal-Cecum,Normal-Cecum,15,Low,Stable,Pending,Updated,2026-07-15
-P031,V0099,Polyps,Esophagitis,110,Very High,Progressing,Pending,Updated,2026-07-15
-P032,V0102,Normal-Pylorus,Normal-Pylorus,35,Medium,Stable,Pending,Updated,2026-07-15
-P033,V0106,Ulcerative-Colitis,Ulcerative-Colitis,70,High,Stable,Pending,Updated,2026-07-15
-P034,V0109,Polyps,Polyps,60,High,Stable,Pending,Updated,2026-07-15
-P035,V0112,Polyps,Esophagitis,60,High,Progressing,Pending,Updated,2026-07-15
-P036,V0115,Polyps,Polyps,50,High,Stable,Pending,Updated,2026-07-15
-P037,V0118,Esophagitis,Esophagitis,40,Medium,Stable,Pending,Updated,2026-07-15
-P038,V0121,Normal-Cecum,Normal-Cecum,50,High,Stable,Pending,Updated,2026-07-15
-P039,V0124,Polyps,Esophagitis,65,High,Progressing,Pending,Updated,2026-07-15
-P040,V0128,Ulcerative-Colitis,Ulcerative-Colitis,80,Very High,Stable,Pending,Updated,2026-07-15
-P041,V0131,Normal-Pylorus,Normal-Pylorus,40,Medium,Stable,Pending,Updated,2026-07-15
-P042,V0134,Dyed-Resection-Margins,Dyed-Lifted-Polyps,45,Medium,Recovering,Pending,Updated,2026-07-15
-P043,V0137,Esophagitis,Esophagitis,35,Medium,Stable,Pending,Updated,2026-07-15
-P044,V0141,Polyps,Esophagitis,70,High,Progressing,Pending,Updated,2026-07-15
-P045,V0144,Normal-Cecum,Normal-Cecum,55,High,Stable,Pending,Updated,2026-07-15
-P046,V0147,Normal-Pylorus,Normal-Pylorus,35,Medium,Stable,Pending,Updated,2026-07-15
-P047,V0150,Dyed-Resection-Margins,Dyed-Lifted-Polyps,50,High,Recovering,Pending,Updated,2026-07-15
-P048,V0154,Polyps,Esophagitis,85,Very High,Progressing,Pending,Updated,2026-07-15
-P049,V0157,Dyed-Resection-Margins,Dyed-Lifted-Polyps,45,Medium,Recovering,Pending,Updated,2026-07-15
-P050,V0160,Normal-Cecum,Normal-Cecum,45,Medium,Stable,Pending,Updated,2026-07-15
+Patient_ID,Current_Visit,Trajectory_Type,Current_Disease,Previous_Disease,Disease_Trend,Risk_Score,Risk_Category,AI_Status,Twin_Status,Current_Severity,Current_Lesion_Area,Current_Confidence,Previous_Severity,Previous_Lesion_Area,Embedding_Path,GradCAM_Path,Last_Updated
+P001,V0003,Stable_Chronic,Esophagitis,Esophagitis,Stable,70,High,Pending,Updated,,,,,,,,2026-07-15
+P002,V0006,Post_Procedure,Dyed-Resection-Margins,Dyed-Lifted-Polyps,Recovering,60,High,Pending,Updated,,,,,,,,2026-07-15
+P003,V0009,Disease_Progression,Polyps,Esophagitis,Progressing,60,High,Pending,Updated,,,,,,,,2026-07-15
+P004,V0013,Inflammatory_Progression,Polyps,Esophagitis,Progressing,60,High,Pending,Updated,,,,,,,,2026-07-15
+P005,V0016,Healthy,Normal-Pylorus,Normal-Pylorus,Stable,15,Low,Pending,Updated,,,,,,,,2026-07-15
+P006,V0019,Disease_Progression,Polyps,Esophagitis,Progressing,135,Very High,Pending,Updated,,,,,,,,2026-07-15
+P007,V0022,Disease_Progression,Polyps,Esophagitis,Progressing,75,Very High,Pending,Updated,,,,,,,,2026-07-15
+P008,V0025,Post_Procedure,Dyed-Resection-Margins,Dyed-Lifted-Polyps,Recovering,30,Medium,Pending,Updated,,,,,,,,2026-07-15
+P009,V0028,Disease_Progression,Polyps,Esophagitis,Progressing,70,High,Pending,Updated,,,,,,,,2026-07-15
+P010,V0031,Healthy,Normal-Cecum,Normal-Cecum,Stable,50,High,Pending,Updated,,,,,,,,2026-07-15
+P011,V0035,Inflammatory_Progression,Polyps,Esophagitis,Progressing,75,Very High,Pending,Updated,,,,,,,,2026-07-15
+P012,V0038,Healthy,Normal-Z-Line,Normal-Z-Line,Stable,30,Medium,Pending,Updated,,,,,,,,2026-07-15
+P013,V0042,Inflammatory_Progression,Polyps,Esophagitis,Progressing,105,Very High,Pending,Updated,,,,,,,,2026-07-15
+P014,V0045,Disease_Progression,Polyps,Esophagitis,Progressing,80,Very High,Pending,Updated,,,,,,,,2026-07-15
+P015,V0048,Post_Procedure,Dyed-Resection-Margins,Dyed-Lifted-Polyps,Recovering,70,High,Pending,Updated,,,,,,,,2026-07-15
+P016,V0051,Post_Procedure,Dyed-Resection-Margins,Dyed-Lifted-Polyps,Recovering,35,Medium,Pending,Updated,,,,,,,,2026-07-15
+P017,V0055,Inflammatory_Progression,Polyps,Esophagitis,Progressing,70,High,Pending,Updated,,,,,,,,2026-07-15
+P018,V0058,Post_Procedure,Dyed-Resection-Margins,Dyed-Lifted-Polyps,Recovering,70,High,Pending,Updated,,,,,,,,2026-07-15
+P019,V0061,Stable_Chronic,Esophagitis,Esophagitis,Stable,70,High,Pending,Updated,,,,,,,,2026-07-15
+P020,V0064,Healthy,Normal-Cecum,Normal-Cecum,Stable,45,Medium,Pending,Updated,,,,,,,,2026-07-15
+P021,V0067,Stable_Chronic,Esophagitis,Esophagitis,Stable,105,Very High,Pending,Updated,,,,,,,,2026-07-15
+P022,V0071,Inflammatory_Progression,Polyps,Esophagitis,Progressing,75,Very High,Pending,Updated,,,,,,,,2026-07-15
+P023,V0074,Stable_Chronic,Esophagitis,Esophagitis,Stable,30,Medium,Pending,Updated,,,,,,,,2026-07-15
+P024,V0077,Healthy,Normal-Pylorus,Normal-Pylorus,Stable,70,High,Pending,Updated,,,,,,,,2026-07-15
+P025,V0081,Inflammatory_Progression,Polyps,Esophagitis,Progressing,95,Very High,Pending,Updated,,,,,,,,2026-07-15
+P026,V0084,Healthy,Normal-Cecum,Normal-Cecum,Stable,30,Medium,Pending,Updated,,,,,,,,2026-07-15
+P027,V0087,Healthy,Normal-Z-Line,Normal-Z-Line,Stable,35,Medium,Pending,Updated,,,,,,,,2026-07-15
+P028,V0090,Disease_Progression,Polyps,Esophagitis,Progressing,120,Very High,Pending,Updated,,,,,,,,2026-07-15
+P029,V0094,Stable_Chronic,Ulcerative-Colitis,Ulcerative-Colitis,Stable,70,High,Pending,Updated,,,,,,,,2026-07-15
+P030,V0098,Inflammatory_Progression,Polyps,Esophagitis,Progressing,65,High,Pending,Updated,,,,,,,,2026-07-15
+P031,V0102,Stable_Chronic,Ulcerative-Colitis,Ulcerative-Colitis,Stable,90,Very High,Pending,Updated,,,,,,,,2026-07-15
+P032,V0106,Inflammatory_Progression,Polyps,Esophagitis,Progressing,85,Very High,Pending,Updated,,,,,,,,2026-07-15
+P033,V0110,Stable_Chronic,Ulcerative-Colitis,Ulcerative-Colitis,Stable,70,High,Pending,Updated,,,,,,,,2026-07-15
+P034,V0113,Stable_Chronic,Esophagitis,Esophagitis,Stable,45,Medium,Pending,Updated,,,,,,,,2026-07-15
+P035,V0116,Disease_Progression,Polyps,Esophagitis,Progressing,60,High,Pending,Updated,,,,,,,,2026-07-15
+P036,V0119,Stable_Chronic,Polyps,Polyps,Stable,50,High,Pending,Updated,,,,,,,,2026-07-15
+P037,V0123,Stable_Chronic,Ulcerative-Colitis,Ulcerative-Colitis,Stable,50,High,Pending,Updated,,,,,,,,2026-07-15
+P038,V0126,Disease_Progression,Polyps,Esophagitis,Progressing,100,Very High,Pending,Updated,,,,,,,,2026-07-15
+P039,V0130,Inflammatory_Progression,Polyps,Esophagitis,Progressing,65,High,Pending,Updated,,,,,,,,2026-07-15
+P040,V0134,Inflammatory_Progression,Polyps,Esophagitis,Progressing,100,Very High,Pending,Updated,,,,,,,,2026-07-15
+P041,V0137,Post_Procedure,Dyed-Resection-Margins,Dyed-Lifted-Polyps,Recovering,55,High,Pending,Updated,,,,,,,,2026-07-15
+P042,V0141,Stable_Chronic,Ulcerative-Colitis,Ulcerative-Colitis,Stable,60,High,Pending,Updated,,,,,,,,2026-07-15
+P043,V0144,Stable_Chronic,Esophagitis,Esophagitis,Stable,35,Medium,Pending,Updated,,,,,,,,2026-07-15
+P044,V0147,Stable_Chronic,Esophagitis,Esophagitis,Stable,40,Medium,Pending,Updated,,,,,,,,2026-07-15
+P045,V0150,Stable_Chronic,Polyps,Polyps,Stable,90,Very High,Pending,Updated,,,,,,,,2026-07-15
+P046,V0153,Healthy,Normal-Z-Line,Normal-Z-Line,Stable,35,Medium,Pending,Updated,,,,,,,,2026-07-15
+P047,V0157,Stable_Chronic,Ulcerative-Colitis,Ulcerative-Colitis,Stable,65,High,Pending,Updated,,,,,,,,2026-07-15
+P048,V0160,Disease_Progression,Polyps,Esophagitis,Progressing,85,Very High,Pending,Updated,,,,,,,,2026-07-15
+P049,V0163,Stable_Chronic,Polyps,Polyps,Stable,65,High,Pending,Updated,,,,,,,,2026-07-15
+P050,V0166,Disease_Progression,Polyps,Esophagitis,Progressing,95,Very High,Pending,Updated,,,,,,,,2026-07-15

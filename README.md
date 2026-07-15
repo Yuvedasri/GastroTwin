@@ -68,6 +68,61 @@ Gastrointestinal Disease Detection. In Proceedings of the 8th ACM on Multimedia
 Systems Conference (MMSys'17).
 ```
 
+## 🗂️ Metadata Architecture (v1.0 - FROZEN)
+
+The GastroTwin framework uses **5 core metadata files** forming the Digital Twin foundation:
+
+```
+METADATA/  (Version 1.0 - FROZEN)
+├── Disease_Master.csv         (8 records)   ← Disease classification reference
+├── Patient_Master.csv         (50 records)  ← Patient demographics & risk factors
+├── Visit_History.csv          (166 records) ← Longitudinal visits with trajectories ✨
+├── Risk_Assessment.csv        (166 records) ← Dynamic risk scores per visit
+├── DigitalTwin_State.csv      (50 records)  ← Current patient state snapshots ✨
+└── VERSION.md                                ← Version control documentation
+```
+
+### ✨ New in v1.0
+
+**1. Clinical Trajectory Templates**
+- 5 types: Healthy, Inflammatory_Progression, Stable_Chronic, Disease_Progression, Post_Procedure
+- Each patient follows ONE consistent trajectory - no arbitrary disease jumps
+
+**2. Ground Truth vs AI Predictions Separated**
+- `GroundTruth_Disease` - From Kvasir (populated)
+- `Predicted_Disease` - From AI classifier (empty, awaiting Phase 5)
+
+**3. AI Feature Placeholders (11 fields)** - Ready for Phase 5 integration:
+- Disease_Severity, Lesion metrics, Texture/Shape scores
+- Segmentation, Embeddings, Grad-CAM paths
+- Prediction confidence
+
+**4. Enhanced Validation**
+- Trajectory consistency checks
+- Temporal validation  
+- Complete referential integrity
+
+### Metadata Relationships
+
+```
+Disease_Master ──┐
+                 ├──→ Visit_History ──→ Risk_Assessment
+Patient_Master ──┤                              │
+                 └──→ DigitalTwin_State ────────┘
+```
+
+### Generation Scripts
+
+```bash
+python create_disease_master.py          # v1.0
+python create_patient_master.py          # v1.0
+python create_visit_history_v2.py        # v2.0 (with trajectories) ✨
+python create_risk_engine.py             # v1.1 (updated compatibility)
+python create_digital_twin_state_v2.py   # v2.0 (with AI placeholders) ✨
+```
+
+📖 **Detailed methodology:** [`docs/Synthetic_Trajectory_Generation.md`](docs/Synthetic_Trajectory_Generation.md)
+
 ## 🗂️ Project Structure
 
 ```
@@ -75,7 +130,7 @@ GASTROTWIN/
 ├── DATA/
 │   └── kvasir-dataset-v2/          # Image dataset (8,000 images)
 │
-├── METADATA/                        # Digital Twin Database
+├── METADATA/                        # Digital Twin Database (v1.0 FROZEN)
 │   ├── Disease_Master.csv          # Reference table (8 diseases)
 │   ├── Patient_Master.csv          # Synthetic patients (50 patients)
 │   ├── Visit_History.csv           # Patient visits (160 visits)
