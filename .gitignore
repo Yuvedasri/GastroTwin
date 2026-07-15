@@ -35,12 +35,12 @@ env/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Data files (if you want to exclude large dataset)
-# Uncomment the following lines if you don't want to push the images
-# DATA/kvasir-dataset-v2/
-# *.jpg
-# *.jpeg
-# *.png
+# Data files (excluding large dataset images to reduce repo size)
+# Users should download Kvasir dataset separately
+DATA/kvasir-dataset-v2/
+*.jpg
+*.jpeg
+!sample_images.png
 
 # Model checkpoints (add when you create models)
 MODELS/*.h5
