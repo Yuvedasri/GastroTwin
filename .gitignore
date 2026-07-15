@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (if you want to exclude large dataset)
+# Uncomment the following lines if you don't want to push the images
+# DATA/kvasir-dataset-v2/
+# *.jpg
+# *.jpeg
+# *.png
+
+# Model checkpoints (add when you create models)
+MODELS/*.h5
+MODELS/*.pth
+MODELS/*.pkl
+*.weights
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Generated visualizations (optional)
+*.png
+!sample_images.png

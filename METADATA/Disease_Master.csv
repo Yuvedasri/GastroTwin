@@ -1,0 +1,9 @@
+Disease_ID,Disease_Name,Category,Description
+D001,Normal-Cecum,Healthy,Normal cecum with no abnormalities
+D002,Normal-Pylorus,Healthy,Normal pylorus with no abnormalities
+D003,Normal-Z-Line,Healthy,Normal Z-line (gastroesophageal junction)
+D004,Esophagitis,Disease,Inflammation of the esophagus
+D005,Polyps,Disease,Abnormal tissue growth in the GI tract
+D006,Ulcerative-Colitis,Disease,Chronic inflammatory bowel disease
+D007,Dyed-Lifted-Polyps,Disease,Polyps after dye spraying and lifting procedure
+D008,Dyed-Resection-Margins,Disease,Resection margins after dye spraying procedure
